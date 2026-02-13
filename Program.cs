@@ -22,6 +22,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 // Add our simple endpoint
-app.MapGet("/hello", () => "Hello from your Azure API running .NET 9");
+app.MapGet("/hello", () => "Hello from your Azure API running .NET 10");
 
 app.Run();
